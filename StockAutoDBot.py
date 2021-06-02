@@ -33,5 +33,7 @@ async def 주식자동변동(ctx, t_time):
                             await ch.send('주식변동')
                             await ch.send('주식정보')
                             break
-TOKEN = os.environ["BOT_TOKEN"]
+                            
+                            
+TOKEN = os.environ['BOT_TOKEN']
 bot.run(TOKEN)
